@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+.card{
+  flex-direction: row;
+}
+.first-main-container{
+  background-image: url(../weatherIcons/weather-body-img.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 82vh;
+  width: 100vw;
+}
+
+#five-day-weather-details{
+  background-image: url(../weatherIcons/weather-body-img.jpg);
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 68vh;
+  width: 100vw;
+}
+
+#cityName {
+    border: 2px solid rgb(70, 147, 241);
+    min-width: 60%;
+    margin-left: 11rem;
+    outline: none;
+}
+#search-btn{
+    border: 2px solid rgb(70, 147, 241);
+    margin-left: 3rem;
+    font-weight: bold;
+}
+#weather-card-01{
+    height: 20rem;
+    width: 100%;
+    /*margin-left: 10rem;*/
+}
+
+#weather-card-02{
+   /* margin-left: 12rem;*/
+    height: 25rem;
+    width: 100%;
+}
+.weatherIcons{
+    height: 5rem;
+    width: 5rem;
+}
+
+.black-hr{
+        border: 2px solid rgb(11, 0, 0);
+        background-color: rgb(8, 0, 0);
+        display: block;
+}
+
+.image-container {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .pop-up-box {
+    height: 3rem;
+    width: 12rem;
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 57%;
+    bottom:66%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .pop-up-box-2{
+    height: 3rem;
+    width: 12rem;
+    text-align: center;
+    display: none;
+    position: absolute;
+    left: 57%;
+    bottom: 41%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+  }  
+  .image-container:hover .pop-up-box {
+    display: block;
+  }
+  .image-container:hover .pop-up-box-2 {
+    display: block;
+  }
+  
+  /*Five Day Weather divs*/
+
+  .five-day-weather-show-divs .card{
+    height: 24rem;
+    width: 16rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: black;
+  }
